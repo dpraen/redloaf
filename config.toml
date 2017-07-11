@@ -1,3 +1,17 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Red Loaf Media"
+
+[[menu.main]]
+    name = "about"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "services"
+    weight = -100
+    url = "/services/"
+[[menu.main]]
+    name = "contact"
+    weight = -100
+    url = "/contact/"
